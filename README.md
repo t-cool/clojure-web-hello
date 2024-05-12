@@ -15,7 +15,10 @@ $ clj -X:server
 
 参考: 
 
-[Ring]: https://github.com/ring-clojure/ring
-[Reitit]: https://github.com/metosin/reitit
-[Ring-Defaults]: https://github.com/ring-clojure/ring-defaults
-[tools.deps]: https://github.com/clojure/tools.deps
+https://github.com/ring-clojure/ring
+
+https://github.com/metosin/reitit
+
+https://github.com/ring-clojure/ring-defaults
+
+https://github.com/clojure/tools.deps
