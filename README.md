@@ -1,20 +1,19 @@
-# Ring Hello World Example
+# Ring Example
 
-This is a basic 'Hello World' example project in [Ring][].
+Web サーバの起動: 
 
-This project uses [Reitit][] for routing, and [Ring-Defaults][] to
-add sensible default middleware. Building the application is handled via
-[tools.deps][].
+```
+clj -X:server :port <ポート番号>
+```
 
-To start the server:
+```
+# デフォルトでは 8080
+$ clj -X:server
+```
 
-    clj -X:server
+<http://localhost:8080>
 
-By default, the server can be accessed at: <http://localhost:8080>
-
-You can also specify the port number explicitly:
-
-    clj -X:server :port 3000
+参考: 
 
 [Ring]: https://github.com/ring-clojure/ring
 [Reitit]: https://github.com/metosin/reitit
